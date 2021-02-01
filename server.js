@@ -1,7 +1,7 @@
 const dbd = require("dbd.js")
  
 const bot = new dbd.Bot({
-token: "ODA1NTAyNDI2MTU2MjM2ODUw.YBb0lw.06uxZW7sXCHAm6oJiyHbcXMPrRM", 
+token: "token", 
 prefix: "!" 
 })
 
@@ -78,31 +78,3 @@ bot.status({
   status: "online",
   time: 12
 })
-
-//Read more information about status in docs:
-//https://dbd.leref.ga/guide/bot-status
-
-//variables
-
-bot.variables({
-    Name: "Value",
-    Name2: "Value2"
-  })
-
-//You can add more variables :)
-//Join our Support Server & read Documentation for help :)
-
-// express Pinglik webserver example code
-const express = require("express");
-const app = express();
-const port = process.env.PORT || 3000;
-
-app.get("/", (req, res) => {
-  res.send(
-    "<code>Hello, this project is using <a href='https://pinglik.eu' target='_blank'>Pinglik</a>!</code>"
-  );
-});
-
-app.listen(port, () => {
-  console.log(`📡 Pinglik webserver has started!`);
-});
