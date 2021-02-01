@@ -1,0 +1,17 @@
+{
+    "name": "Raid-bot",
+    "version": "1.0.0",
+    "description": "My awsome Server Raiding bot",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "engines": {
+      "node": "12.x"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "dbd.js": "^1.4.0"
+    }
+  }
